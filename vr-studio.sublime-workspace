@@ -1,0 +1,703 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"foreach"
+			],
+			[
+				"four",
+				"fourstone"
+			],
+			[
+				"argmin",
+				"argminx"
+			],
+			[
+				"_b",
+				"_bsize"
+			],
+			[
+				"fo",
+				"forpairs\tfor-in-pairs"
+			],
+			[
+				"print",
+				"print_table"
+			],
+			[
+				"feature",
+				"feature_sprites"
+			],
+			[
+				"sp",
+				"spr"
+			],
+			[
+				"left",
+				"left_idx"
+			],
+			[
+				"delta",
+				"deltaOrientation"
+			],
+			[
+				"cursor",
+				"cursor-obj"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Assets/game/core.clj",
+			"settings":
+			{
+				"buffer_size": 2847,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/hard/core.clj",
+			"settings":
+			{
+				"buffer_size": 11137,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/dev/unity/procadia2017/Assets/shaders/standard-vertex.shader",
+			"settings":
+			{
+				"buffer_size": 1575,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/Tex.cs",
+			"settings":
+			{
+				"buffer_size": 110,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/shaders/paint.shader",
+			"settings":
+			{
+				"buffer_size": 1171,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Assets/shaders/shadow.shader",
+			"settings":
+			{
+				"buffer_size": 1575,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "game.core=> (mask 11)\n2048\r\ngame.core=> (mask \"ablative\")\n2048\r\ngame.core=> (mask \"player\")\nSystem.ArgumentException: Value out of range for int: -9223372036854775808\n  at clojure.lang.RT.intCast (Int64 x) [0x00000] in <filename unknown>:0 \n  at hard/physics$mask__43575.invokeStatic (System.Object ) [0x00000] in <filename unknown>:0 \n  at hard/physics$mask__43575.invoke (System.Object ) [0x00000] in <filename unknown>:0 \n  at game/core$eval__43866__43871.invokeStatic () [0x00000] in <filename unknown>:0 \n  at game/core$eval__43866__43871.invoke () [0x00000] in <filename unknown>:0 \n(7 stack frames omitted)\ngame.core=> (mask \"clone\")\n1024\r\ngame.core=> \n#'game.core/ray-scan\r\ngame.core=> \n#'game.core/ray-scan\r\ngame.core=> \n#unity/GameObject -817916\r\ngame.core=> \n#'game.core/ray-scan\r\ngame.core=> (/ 0.09721129 0.06473059)\n1.50178285104461\r\ngame.core=> (/  0.06473059 0.09721129)\n0.665875229101476\r\ngame.core=> \n#'game.core/texture-coord\r\ngame.core=> \n#'game.core/texture-coord\r\ngame.core=> \n#'game.core/texture-coord\r\ngame.core=> \n#'game.core/texture-coord\r\ngame.core=> \n#'game.core/texture-coord\r\ngame.core=> \n#'game.core/ray-scan\r\ngame.core=> ",
+			"settings":
+			{
+				"buffer_size": 1153,
+				"line_ending": "Windows",
+				"name": "*arcadia-repl*",
+				"scratch": true
+			}
+		},
+		{
+			"file": "Assets/hard/physics.clj",
+			"settings":
+			{
+				"buffer_size": 3176,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/PICO-8.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/PICO-8.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "pi",
+		"selected_items":
+		[
+			[
+				"pi",
+				"PICO-8: Run Cartridge"
+			],
+			[
+				"PICO",
+				"PICO-8: Browse BBS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 440.0
+	},
+	"console":
+	{
+		"height": 133.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/dev/unity/vr-studio/Assets",
+		"/C/dev/unity/vr-studio/Assets/game",
+		"/C/dev/unity/vr-studio/Assets/hard"
+	],
+	"file_history":
+	[
+		"/C/dev/unity/procadia2017/Assets/shaders/vertex-shadow-diffuse.shader",
+		"/C/dev/aoc/day24",
+		"/C/Users/selfsame/AppData/Roaming/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/C/Users/selfsame/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/C/Users/selfsame/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/dev/unity/procadia2017/Assets/shaders/standard-vertex.shader",
+		"/C/dev/unity/procadia2017/procadia.sublime-project",
+		"/C/dev/unity/cljvr/arcadia.sublime-project",
+		"/C/Users/selfsame/AppData/Roaming/pico-8/carts/ecs.p8",
+		"/C/dev/alien/coffee/generate.coffee",
+		"/C/Users/selfsame/Desktop/iga/iga.lua",
+		"/C/Users/selfsame/AppData/Roaming/pico-8/carts/jswfc/index.html",
+		"/C/Users/selfsame/AppData/Roaming/Sublime Text 3/Packages/User/PICO-8.sublime-settings",
+		"/C/Users/selfsame/AppData/Roaming/pico-8/carts/model.js",
+		"/C/Users/selfsame/AppData/Roaming/pico-8/carts/jswfc/js/model.js",
+		"/C/Users/selfsame/AppData/Roaming/pico-8/carts/overlap.js",
+		"/C/Users/selfsame/AppData/Roaming/pico-8/carts/model.cs",
+		"/C/Users/selfsame/AppData/Roaming/pico-8/carts/overlap.cs",
+		"/C/Users/selfsame/AppData/Roaming/pico-8/carts/demos/buckethash.p8",
+		"/C/Users/selfsame/AppData/Local/Temp/7zE04D0A49D/iga.lua",
+		"/C/Users/selfsame/AppData/Roaming/pico-8/carts/demos/butterfly.p8",
+		"/C/Users/selfsame/AppData/Roaming/pico-8/carts/pico8-ec.p8",
+		"/C/Users/selfsame/AppData/Roaming/pico-8/carts/alien_archaeologist.p8",
+		"/C/dev/alien/coffee/blocks.coffee",
+		"/C/dev/alien/coffee/entity_constructor.coffee",
+		"/C/dev/alien/coffee/classes.coffee",
+		"/C/dev/alien/coffee/game.coffee",
+		"/C/dev/alien/coffee/boids.coffee",
+		"/C/dev/alien/coffee/fun.coffee",
+		"/C/Users/selfsame/AppData/Roaming/Sublime Text 3/Packages/User/PICO-8.sublime-build",
+		"/C/Users/selfsame/AppData/Roaming/Sublime Text 3/Packages/PICO-8/pico_run_cart.py",
+		"/C/Users/selfsame/AppData/Roaming/Sublime Text 3/Packages/PICO-8/PICO-8.sublime-commands",
+		"/C/Users/selfsame/AppData/Roaming/Sublime Text 3/Packages/PICO-8/PICO-8.tmLanguage",
+		"/C/Users/selfsame/AppData/Roaming/Sublime Text 3/Packages/arcadia-repl/Clojure.sublime-settings",
+		"/C/dev/sculptgl/README.md",
+		"/C/dev/sculptgl/src/mesh/Mesh.js",
+		"/C/dev/sculptgl/src/drawables/Primitives.js",
+		"/C/dev/sculptgl/src/gui/GuiFiles.js",
+		"/C/dev/sculptgl/src/editing/Remesh.js",
+		"/C/dev/sculptgl/src/drawables/frame.js",
+		"/C/dev/sculptgl/src/mesh/UIMesh.js",
+		"/C/dev/sculptgl/src/files/ImportPLY.js",
+		"/C/dev/sculptgl/src/gui/GuiTopology.js",
+		"/C/dev/unity/cljvr/Assets/SteamVR/Scripts/SteamVR_UpdatePoses.cs",
+		"/C/dev/unity/cljvr/Assets/SteamVR/Extras/SteamVR_TrackedController.cs",
+		"/C/dev/unity/cljvr/Assets/game/todo.clj",
+		"/C/dev/unity/cljvr/Assets/hard/core.clj",
+		"/C/dev/unity/cljvr/Assets/SteamVR/Scripts/SteamVR_TestController.cs",
+		"/C/dev/unity/cljvr/Assets/Arcadia/Source/arcadia/core.clj",
+		"/C/dev/unity/cljvr/Assets/repl/core.clj",
+		"/C/dev/unity/cljvr/.gitignore",
+		"/C/dev/unity/cljvr/Assets/shaders/vertex-shadow-diffuse.shader",
+		"/C/dev/unity/pelatra/pelatra_latest/Assets/workout1.json",
+		"/C/dev/Arcadia/README.md",
+		"/C/dev/unity/cljvr/Assets/tween/core.clj",
+		"/C/Users/selfsame/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+			"C:\\dev\\sculptgl\\src",
+			"C:\\dev\\unity\\cljvr\\Assets\\SteamVR",
+			"C:\\dev\\unity\\cljvr\\Assets\\Arcadia\\Source\\arcadia"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Debug",
+			")",
+			"life",
+			"collide",
+			"_f",
+			"_F",
+			"clear",
+			"ground",
+			"grideach",
+			"clear",
+			"ground",
+			"periodic",
+			"periodic_output",
+			"ground",
+			"print_pattern",
+			"grideach",
+			"contains",
+			"tcount",
+			"periodicInput",
+			"periodic_input",
+			"periodic",
+			"_f",
+			"])",
+			"spr",
+			"10",
+			"periodicInput",
+			"periodic_input",
+			"update_tile",
+			"!",
+			"count",
+			"if",
+			"a",
+			"vrinit",
+			"onControllerMove",
+			"WEBVR",
+			"_lastMouseX",
+			"picking",
+			"vec3",
+			"updateMoveDir",
+			"dir",
+			"controllerDistance",
+			"_mesh.scale",
+			"initialS",
+			"this.initialS",
+			"this.S",
+			"60",
+			"57",
+			"getRotation",
+			"optimizePostTransform",
+			"optimize",
+			"optimizePostTransform",
+			"fArUV.set",
+			"new Mesh",
+			"allocateArrays",
+			"initTopology",
+			"_nbVertices",
+			"initialS",
+			"mat4.rotate",
+			"inverse",
+			"LTI",
+			"material-color",
+			"Haptic",
+			"HapticsOnTouch",
+			"EVRButtonId.k_EButton_SteamVR",
+			"k_EButton_SteamVR_Touchpad",
+			"EVRButtonId",
+			"Device",
+			"find-component",
+			"camel"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Assets/game/core.clj",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2847,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2464,
+								2464
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/arcadia-repl/Clojure.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 765.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/hard/core.clj",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 11137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/arcadia-repl/Clojure.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2137.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/dev/unity/procadia2017/Assets/shaders/standard-vertex.shader",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1575
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Assets/Tex.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C#/C#.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Assets/shaders/paint.shader",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								273,
+								273
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Assets/shaders/shadow.shader",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1153,
+								1153
+							]
+						],
+						"settings":
+						{
+							"arcadia_repl": true,
+							"gutter": false,
+							"line_numbers": false,
+							"scope_name": "source.arcadia",
+							"syntax": "Packages/arcadia-repl/Clojure.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "Assets/hard/physics.clj",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/arcadia-repl/Clojure.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.532501450958,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 187.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/PICO-8.sublime-build",
+	"project": "vr-studio.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
