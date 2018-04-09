@@ -6,8 +6,8 @@ PhysicMaterial:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: smooth
-  dynamicFriction: 0
-  staticFriction: 0
+  dynamicFriction: 0.02
+  staticFriction: 0.02
   bounciness: 0
   frictionCombine: 1
   bounceCombine: 0

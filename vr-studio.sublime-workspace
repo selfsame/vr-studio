@@ -55,7 +55,7 @@
 			"file": "Assets/game/core.clj",
 			"settings":
 			{
-				"buffer_size": 2847,
+				"buffer_size": 3038,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -103,16 +103,6 @@
 				"buffer_size": 1575,
 				"encoding": "UTF-8 with BOM",
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "game.core=> (mask 11)\n2048\r\ngame.core=> (mask \"ablative\")\n2048\r\ngame.core=> (mask \"player\")\nSystem.ArgumentException: Value out of range for int: -9223372036854775808\n  at clojure.lang.RT.intCast (Int64 x) [0x00000] in <filename unknown>:0 \n  at hard/physics$mask__43575.invokeStatic (System.Object ) [0x00000] in <filename unknown>:0 \n  at hard/physics$mask__43575.invoke (System.Object ) [0x00000] in <filename unknown>:0 \n  at game/core$eval__43866__43871.invokeStatic () [0x00000] in <filename unknown>:0 \n  at game/core$eval__43866__43871.invoke () [0x00000] in <filename unknown>:0 \n(7 stack frames omitted)\ngame.core=> (mask \"clone\")\n1024\r\ngame.core=> \n#'game.core/ray-scan\r\ngame.core=> \n#'game.core/ray-scan\r\ngame.core=> \n#unity/GameObject -817916\r\ngame.core=> \n#'game.core/ray-scan\r\ngame.core=> (/ 0.09721129 0.06473059)\n1.50178285104461\r\ngame.core=> (/  0.06473059 0.09721129)\n0.665875229101476\r\ngame.core=> \n#'game.core/texture-coord\r\ngame.core=> \n#'game.core/texture-coord\r\ngame.core=> \n#'game.core/texture-coord\r\ngame.core=> \n#'game.core/texture-coord\r\ngame.core=> \n#'game.core/texture-coord\r\ngame.core=> \n#'game.core/ray-scan\r\ngame.core=> ",
-			"settings":
-			{
-				"buffer_size": 1153,
-				"line_ending": "Windows",
-				"name": "*arcadia-repl*",
-				"scratch": true
 			}
 		},
 		{
@@ -190,11 +180,12 @@
 	"expanded_folders":
 	[
 		"/C/dev/unity/vr-studio/Assets",
-		"/C/dev/unity/vr-studio/Assets/game",
 		"/C/dev/unity/vr-studio/Assets/hard"
 	],
 	"file_history":
 	[
+		"/C/dev/sculpt/app/serve.BAT",
+		"/C/dev/unity/vr-studio/vr-studio.sublime-project",
 		"/C/dev/unity/procadia2017/Assets/shaders/vertex-shadow-diffuse.shader",
 		"/C/dev/aoc/day24",
 		"/C/Users/selfsame/AppData/Roaming/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
@@ -254,7 +245,7 @@
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 42.0
 	},
 	"find_in_files":
 	{
@@ -271,6 +262,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			":brush",
 			"Debug",
 			")",
 			"life",
@@ -366,15 +358,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2847,
+						"buffer_size": 3038,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2464,
-								2464
+								1390,
+								1390
 							]
 						],
 						"settings":
@@ -382,7 +374,7 @@
 							"syntax": "Packages/arcadia-repl/Clojure.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 765.0,
+						"translation.y": 756.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -401,8 +393,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								4794,
+								4775
 							]
 						],
 						"settings":
@@ -412,10 +404,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2137.0,
+						"translation.y": 2603.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -445,7 +437,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -473,7 +465,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -503,7 +495,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -533,7 +525,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -544,38 +536,6 @@
 			[
 				{
 					"buffer": 6,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1153,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1153,
-								1153
-							]
-						],
-						"settings":
-						{
-							"arcadia_repl": true,
-							"gutter": false,
-							"line_numbers": false,
-							"scope_name": "source.arcadia",
-							"syntax": "Packages/arcadia-repl/Clojure.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "Assets/hard/physics.clj",
 					"semi_transient": false,
 					"settings":
@@ -587,8 +547,8 @@
 						"selection":
 						[
 							[
-								129,
-								129
+								1527,
+								1527
 							]
 						],
 						"settings":
@@ -598,10 +558,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -609,7 +569,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -635,7 +595,7 @@
 		"cols":
 		[
 			0.0,
-			0.532501450958,
+			0.548171793384,
 			1.0
 		],
 		"rows":
@@ -657,7 +617,7 @@
 	"project": "vr-studio.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
